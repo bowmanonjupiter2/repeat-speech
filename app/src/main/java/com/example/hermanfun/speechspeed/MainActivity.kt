@@ -119,7 +119,7 @@ class MainActivity : AppCompatActivity(), OnSpeechRecognitionPermissionListener,
     }
 
     private fun initXunFeiSpeechUtil(){
-        SpeechUtility.createUtility(this,SpeechConstant.APPID+"=5b261ec8")
+        SpeechUtility.createUtility(this,SpeechConstant.APPID+"=YourApplicationKey")
     }
 
     private fun textToVoice(str2Voice:String){
